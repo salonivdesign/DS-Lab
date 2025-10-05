@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
-    //push element in a stack using array operation
     int n1,el,pos;
     cin>>n1;
     int arr[n1+1];
@@ -21,20 +20,5 @@ int main() {
         cout<<arr[i];
     }
     
-// Declaring a  vectir and calculating the sum of its elements
-    
-    int n;
-    cout<<"Enter size of vector:";
-    cin>>n;
-    vector<int>v(n,0);
-    for(int i=0;i<n;i++){
-        cin>>v[i];
-    }
-    int sum=0;
-        
-    for (int i=0;i<n;i++){
-        sum+=v[i];
-    }
-    cout<<sum;
-    return 0;
+
 }
