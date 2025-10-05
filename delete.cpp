@@ -17,20 +17,5 @@ int main(){
     for (i=0;i<n;i++){
         cout<<arr[i]<<endl;
     }
-  // Finding the smallest missing positive number in an array
-    cout<<"Finding the smallest missing positive number in an array"<<endl;
-    int n;
-    cout<<"Enter size:";
-    cin>>n;
-    int arr[n];
-    for (int i=0;i<n;i++){
-        cin>>arr[i];
-    }
-    for(int i=0;i<n;i++){
-        if (arr[i]!=i+1){
-            cout<<i+1<<endl;
-            break;
-        }
-    }
     return 0;
 }
